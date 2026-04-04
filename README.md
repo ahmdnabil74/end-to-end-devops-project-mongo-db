@@ -67,6 +67,8 @@ chmod +x deploy.sh
 ./deploy.sh
 📊 Outputs
 
+---
+
 ##After successful deployment:
 
 ✅ EKS Cluster is created
@@ -88,6 +90,8 @@ kubectl get svc -n monitoring
 
 Access Grafana / Prometheus via NodePort or port-forward.
 
+---
+
 ##📸 Screenshots
 
 
@@ -102,6 +106,9 @@ Infrastructure as Code (IaC)
 Cloud-native deployment
 Monitoring integration
 Production-like setup
+
+---
+
 
 🧠 What I Learned
 Building real-world DevOps pipelines
