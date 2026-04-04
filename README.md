@@ -1,22 +1,4 @@
-# 🚀 End-to-End DevOps Project on AWS (EKS)
 
-This project demonstrates a complete DevOps workflow by provisioning infrastructure, building and deploying an application, and setting up monitoring — all fully automated using a Bash script.
-
----
-
-## 📌 Project Overview
-
-This project automates:
-
-- Infrastructure provisioning using Terraform  
-- Kubernetes cluster setup (Amazon EKS)  
-- Docker image build and push to Amazon ECR  
-- Application deployment on Kubernetes  
-- Monitoring setup using Prometheus & Grafana (via Helm)  
-
----
-
-## 🏗️ Architecture
 # 🚀 End-to-End DevOps Project on AWS (EKS)
 
 This project demonstrates a complete DevOps workflow by provisioning infrastructure, building and deploying an application, and setting up monitoring — all fully automated using a Bash script.
@@ -65,14 +47,14 @@ kubectl get svc -n monitoring
 
 Access Grafana / Prometheus via NodePort or port-forward.
 
-📸 Screenshots
+## 📸 Screenshots
 
 Terraform apply success
 Running pods
 Application UI
 Grafana dashboard
 
-💡 Key Features
+## 💡 Key Features
 Fully automated DevOps pipeline
 Infrastructure as Code (IaC)
 Cloud-native deployment
