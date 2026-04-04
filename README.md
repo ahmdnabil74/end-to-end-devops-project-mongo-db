@@ -1,6 +1,6 @@
 
 # 🚀 End-to-End DevOps Project on AWS (EKS)
-(imgs/project.png)
+![The Project](imgs/project.png)
 
 This project demonstrates a complete DevOps workflow by provisioning infrastructure, building and deploying an application, and setting up monitoring — all fully automated using a Bash script.
 
