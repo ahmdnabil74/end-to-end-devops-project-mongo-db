@@ -61,7 +61,7 @@ Grafana dashboard
 - Monitoring integration
 - Production-like setup
  
-🧠 What I Learned
+## 🧠 What I Learned
 - Building real-world DevOps pipelines
 - Managing Kubernetes workloads
 - Automating cloud infrastructure
