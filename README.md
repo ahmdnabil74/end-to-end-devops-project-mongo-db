@@ -55,14 +55,14 @@ Application UI
 Grafana dashboard
 
 ## 💡 Key Features
-Fully automated DevOps pipeline
-Infrastructure as Code (IaC)
-Cloud-native deployment
-Monitoring integration
-Production-like setup
-
+- Fully automated DevOps pipeline
+- Infrastructure as Code (IaC)
+- Cloud-native deployment
+- Monitoring integration
+- Production-like setup
+ 
 🧠 What I Learned
-Building real-world DevOps pipelines
-Managing Kubernetes workloads
-Automating cloud infrastructure
-Integrating monitoring systems
+- Building real-world DevOps pipelines
+- Managing Kubernetes workloads
+- Automating cloud infrastructure
+- Integrating monitoring systems
