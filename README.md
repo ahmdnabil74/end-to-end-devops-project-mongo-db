@@ -54,9 +54,7 @@ Make sure you have:
 
 ## 🔑 Configuration
 
-Update variables inside the script:
-
-```bash
+bash
 cluster_name="cluster-1-test"
 region="eu-central-1"
 aws_id="YOUR_AWS_ACCOUNT_ID"
@@ -98,12 +96,14 @@ Terraform apply success
 Running pods
 Application UI
 Grafana dashboard
+
 💡 Key Features
 Fully automated DevOps pipeline
 Infrastructure as Code (IaC)
 Cloud-native deployment
 Monitoring integration
 Production-like setup
+
 🧠 What I Learned
 Building real-world DevOps pipelines
 Managing Kubernetes workloads
