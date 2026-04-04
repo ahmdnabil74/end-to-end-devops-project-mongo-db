@@ -67,7 +67,7 @@ chmod +x deploy.sh
 ./deploy.sh
 📊 Outputs
 
-After successful deployment:
+##After successful deployment:
 
 ✅ EKS Cluster is created
 ✅ Application is deployed
@@ -88,16 +88,15 @@ kubectl get svc -n monitoring
 
 Access Grafana / Prometheus via NodePort or port-forward.
 
-📸 Screenshots
+##📸 Screenshots
 
-Add screenshots here:
 
 Terraform apply success
 Running pods
 Application UI
 Grafana dashboard
 
-💡 Key Features
+##💡 Key Features
 Fully automated DevOps pipeline
 Infrastructure as Code (IaC)
 Cloud-native deployment
