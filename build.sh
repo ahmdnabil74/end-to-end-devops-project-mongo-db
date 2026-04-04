@@ -39,7 +39,7 @@ echo "--------------------Remove Previous Docker Image--------------------"
 docker rmi -f $image_name || true
 
 echo "--------------------Build New Docker Image--------------------"
-docker build -t $image_name ./Go-app/
+docker build -t $image_name ./go-app/
 
 echo "--------------------Login to ECR--------------------"
 aws ecr get-login-password --region $region | docker login --username AWS --password-stdin $aws_id.dkr.ecr.$region.amazonaws.com
