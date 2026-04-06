@@ -25,7 +25,7 @@ echo "--------------------Update Kubeconfig--------------------"
 aws eks update-kubeconfig --name $cluster_name --region $region
 
 # -------------------- Deploy Monitoring (Helm) --------------------
-echo "--------------------Deploying Monitoring via Helm--------------------"
+echo "---------------------Deploying Monitoring via Helm--------------------"
 kubectl create ns monitoring --dry-run=client -o yaml | kubectl apply -f -
 
 helm upgrade --install kube-prometheus-stack prometheus-community/kube-prometheus-stack \
