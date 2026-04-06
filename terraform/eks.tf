@@ -119,7 +119,7 @@ module "eks" {
     system = {
       min_size     = 1
       max_size     = 3
-      desired_size = 1
+      desired_size = 2
 
       instance_types = var.asg_sys_instance_types
       subnet_ids     = module.vpc.private_subnets  # Node group في private subnets
@@ -224,6 +224,8 @@ resource "helm_release" "cluster-autoscaler" {
   chart            = "cluster-autoscaler"
   version          = "9.29.0"
   create_namespace = false
+  timeout          = 300    
+  wait             = true 
 
   set {
     name  = "cloudProvider"
